@@ -23,6 +23,12 @@ Usage
 3.Detailed usage please refer to:https://www.cnblogs.com/Hard/p/netcore_winfrom_audiotranscript_videoOCR_word.html.
 
 
+
+
+
+
+
+
 HTWCore是基于.net core 的windows平台下的应用软件，它主要用于处理：
 
 1.识别转写普通话、英语的音视频文件，识别语音中的人物角色，并能输出每一句话的时间点，一键生成易读的Word文档。
@@ -34,6 +40,12 @@ HTWCore是基于.net core 的windows平台下的应用软件，它主要用于�
 4.对在线音视频录音并转写成word文档。
 
 5.识别转写速度快，1小时的音视频5分钟内出稿，使用于会议、座谈会、讲话、课件、电视剧、采访等等各种场景。
+
+
+
+
+
+
 
 可延申至语音或图片识别各种应用场景，识别率高， 接入识别转写或OCR API或定制请联系：
 1005354833@qq.com
