@@ -16,7 +16,7 @@ HTWCore is an application working on Windows.You can use it  as belows:
 
 Usage
 
-1.Unzip the HTWCore.zip 
+1.Download the HTWCore智能音视频转字幕文稿系统，if your PC doesn't have .net core installed, the package will has a warn.
 
 2.If you do not have "ffmpeg" installed, download ffmpeg from http://ffmpeg.org/ and put "ffmpeg.exe" and HTWCore.exe in the same folder.
 
