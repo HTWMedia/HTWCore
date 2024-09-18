@@ -1,49 +1,56 @@
-# HTWCore
-Video OCR and Audio Transcript and Recording
+# HTWCore音视频应用软件
+
+HTWCore是一款windows系统上的音视频AI应用软件，用于音视频、图片等的识别分析等。可在右侧release中下载，或者到[HTWCore网站](http://8.136.199.131/Home/Download)下载相关软件及使用说明视频。
+
+主要功能包括：
+
+- 人声分离：即分离人声和音视频背景音乐。
+
+- 语音识别：识别音视频内容生成文本。
+
+- 歌词识别：识别音视频中的歌词内容。
+
+- 角色区分：识别音视频中的人物角色，并作区分。
+
+- 重点总结：识别音视频中的内容，并生成内容重点。
+
+- 语音翻译：将音视频中的内容翻译成其它语言。
+
+- 文稿匹配：即将音视频和对应的文稿内容匹配，生成SRT时间轴文档。
+
+- 超清画质：即将低清晰度画质的视频渲染成超高清晰度的视频。
+
+- 视频旋转：将视频做1°旋转。
+
+- 水印去除：可去除视频中的一个或多个静态及动态水印，不需要人工框选水印位置及内容，软件会自动识别文字水印，并修复成和原视频一样的无水印新视频。
+
+- 文生素材：即根据文稿生成包含图片、短视频、背景音乐的相关素材。
+
+- 图片识别：可用于OCR识别包含表格、试题、公式等复杂内容的图片。生成的文档会包含原有的排版。
+
+- 字幕提取：即提取视频中的内嵌字幕，抽取视频帧进行OCR识别，可识别多语种的视频字幕，生成文本文档和SRT文档。
+
+以上功能可用于AI模型的数据准备、自媒体创作、日常工作学习等。
 
 
-HTWCore is an application working on Windows.You can use it  as belows:
+### HTWCore软件有了更新：
+**本次更新添加了剪映里边类似的AI功能，比如人声分离、语音识别、文稿匹配、语音翻译、超清画质、视频旋转、语音识别角色区分、歌词识别、文生素材功能。采用API调用的方法，不需要安装其它软件，达到和剪映一样的识别性能。**
 
-1.Transcript Chinese、English audio/video to text and export to the word.
+**另外还增加了对音视频语音内容重点总结、视频水印去除等视频识别、分析类的功能。**
 
-2.Transcript Chinese、English video to text and export to the srt to add subtiles.
+**新增功能可并行、批量运行，速度快。带有日志，便于追踪。**
 
-3.OCR video to extract burned subtitles in the video.
+软件主界面如下，使用方法是：
 
-4.Record and download the audio/video on the web,and transcript.
+- 输入目录：即要操作的音视频目录，可集中放在这个目录下。文稿匹配的文稿也可以放在这个目录，与音视频即可。
 
-5.It's fast and high performance and easy to use.
+- 输出目录：操作结果的存放目录，在该目录下会自动生成TXT文件夹、音视频文件夹、SRT文件夹以及视频文件夹，分别用于存放识别生成的TXT文件，超清视频文件、SRT文件等。
 
-Usage
+- 视频任务：列出了主要的功能，功能可并行运行。每个任务也可独立运行，多个视频可并行运行。
 
-1.Download the HTWCore智能音视频转字幕文稿系统 from http://8.136.199.131/Home/Download.
+- 输出日志：显示自动运行的中间处理过程。
 
-2.Detailed usage please refer to:http://8.136.199.131/Home/Download.
+- 开始操作按钮：点击开始操作软件会自动长时间并行运行。
 
+![QQ图片20240918121829](https://github.com/user-attachments/assets/86dcb7dc-eea4-408e-9d53-83997fc49b60)
 
-
-
-
-
-
-
-HTWCore是基于.net core 的windows平台下的应用软件，它主要用于处理：
-
-1.识别转写普通话、英语的音视频文件，识别语音中的人物角色，并能输出每一句话的时间点，一键生成易读的Word文档。
-
-2.识别转写视频，并能导出SRT格式文件，用于添加字幕。
-
-3.OCR视频中的内嵌字幕，并提取保存成word。
-
-4.对在线音视频录音并转写成word文档。
-
-5.识别转写速度快，1小时的音视频5分钟内出稿，使用于会议、座谈会、讲话、课件、电视剧、采访等等各种场景。
-
-
-
-
-
-
-
-可延申至语音或图片识别各种应用场景，识别率高， 接入识别转写或OCR API或定制请联系：
-1005354833@qq.com
